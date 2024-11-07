@@ -7,13 +7,13 @@ Recommendation systems are used to predict the preferences or ratings that a use
 ## 1. Collaborative Filtering (CF)
   
 ### 1.1 Collaborative Filtering
-<li><b>User-Based Collaborative Filtering:</b> This method computes the similarity between users and recommends items based on the preferences of similar users.
-<li><b>Item-Based Collaborative Filtering:</b> This method computes the similarity between items, recommending items that are similar to what the user has rated highly.
+<li><b>User-Based Collaborative Filtering:</b> 
+<li><b>Item-Based Collaborative Filtering:</b> 
 <li>Implemented with KNNBasic, KNNWithMeans, and KNNBaseline from the surprise library.
 
 ### 1.2 Matrix Factorization
-<li><b>SVD (Singular Value Decomposition):</b> A matrix factorization technique that reduces the dimensionality of the user-item interaction matrix and captures latent factors.
-<li><b>NMF (Non-negative Matrix Factorization):</b> A variant of matrix factorization that imposes non-negativity constraints, making it interpretable for some datasets.
+<li><b>SVD (Singular Value Decomposition):</b> 
+<li><b>NMF (Non-negative Matrix Factorization):</b> 
 <li>Both algorithms are implemented using the surprise library.
 
 ## 2. Content-Based Filtering

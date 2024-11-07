@@ -7,13 +7,13 @@ Recommendation systems are used to predict the preferences or ratings that a use
 ## 1. Collaborative Filtering (CF)
   
 ### 1.1 Collaborative Filtering
-<li><b>User-Based Collaborative Filtering:</b> 
-<li><b>Item-Based Collaborative Filtering:</b> 
+<li>User-Based Collaborative Filtering
+<li>Item-Based Collaborative Filtering
 <li>Implemented with KNNBasic, KNNWithMeans, and KNNBaseline from the surprise library.
 
 ### 1.2 Matrix Factorization
-<li><b>SVD (Singular Value Decomposition):</b> 
-<li><b>NMF (Non-negative Matrix Factorization):</b> 
+<li>SVD (Singular Value Decomposition) 
+<li>NMF (Non-negative Matrix Factorization) 
 <li>Both algorithms are implemented using the surprise library.
 
 ## 2. Content-Based Filtering

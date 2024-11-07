@@ -4,24 +4,24 @@ This repository demonstrates various types of recommendation systems using both 
 ## Project Overview
 Recommendation systems are used to predict the preferences or ratings that a user would give to an item. They are widely used in platforms like Netflix, Amazon, and Spotify to recommend movies, products, or music. This project showcases multiple approaches to building a recommendation system:
 
-## Collaborative Filtering (CF)
+## 1Collaborative Filtering (CF)
 <li>User-Based Collaborative Filtering: Recommendations based on the preferences of similar users.
 <li>Item-Based Collaborative Filtering: Recommendations based on the similarity between items (books, movies, etc.).
 <li>Matrix Factorization: Techniques like Singular Value Decomposition (SVD) and Non-negative Matrix Factorization (NMF) to discover latent factors behind ratings.
 Content-Based Filtering: Recommendations based on the features of the items themselves, such as the genre, keywords, etc.
 Algorithms Used
   
-## 1. Collaborative Filtering
+### 1.1 Collaborative Filtering
 <li><b>User-Based Collaborative Filtering:</b> This method computes the similarity between users and recommends items based on the preferences of similar users.
 <li><b>Item-Based Collaborative Filtering:</b> This method computes the similarity between items, recommending items that are similar to what the user has rated highly.
 <li>Implemented with KNNBasic, KNNWithMeans, and KNNBaseline from the surprise library.
 
-## 2. Matrix Factorization
+### 1.2 Matrix Factorization
 <li><b>SVD (Singular Value Decomposition):</b> A matrix factorization technique that reduces the dimensionality of the user-item interaction matrix and captures latent factors.
 <li><b>NMF (Non-negative Matrix Factorization):</b> A variant of matrix factorization that imposes non-negativity constraints, making it interpretable for some datasets.
 <li>Both algorithms are implemented using the surprise library.
 
-## 3. Content-Based Filtering
+## 2. Content-Based Filtering
 <li>A simple content-based recommender can be built based on item features such as genre, description, etc. In this case, book titles and authors are used as features.
 Installation
 

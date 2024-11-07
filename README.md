@@ -10,6 +10,7 @@ Recommendation systems are used to predict the preferences or ratings that a use
 <li>Matrix Factorization: Techniques like Singular Value Decomposition (SVD) and Non-negative Matrix Factorization (NMF) to discover latent factors behind ratings.
 Content-Based Filtering: Recommendations based on the features of the items themselves, such as the genre, keywords, etc.
 Algorithms Used
+  
 ## 1. Collaborative Filtering
 <li><b>User-Based Collaborative Filtering:</b> This method computes the similarity between users and recommends items based on the preferences of similar users.
 <li><b>Item-Based Collaborative Filtering:</b> This method computes the similarity between items, recommending items that are similar to what the user has rated highly.

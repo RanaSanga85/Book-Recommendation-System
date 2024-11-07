@@ -5,11 +5,6 @@ This repository demonstrates various types of recommendation systems using both 
 Recommendation systems are used to predict the preferences or ratings that a user would give to an item. They are widely used in platforms like Netflix, Amazon, and Spotify to recommend movies, products, or music. This project showcases multiple approaches to building a recommendation system:
 
 ## 1. Collaborative Filtering (CF)
-<li>User-Based Collaborative Filtering: Recommendations based on the preferences of similar users.
-<li>Item-Based Collaborative Filtering: Recommendations based on the similarity between items (books, movies, etc.).
-<li>Matrix Factorization: Techniques like Singular Value Decomposition (SVD) and Non-negative Matrix Factorization (NMF) to discover latent factors behind ratings.
-Content-Based Filtering: Recommendations based on the features of the items themselves, such as the genre, keywords, etc.
-Algorithms Used
   
 ### 1.1 Collaborative Filtering
 <li><b>User-Based Collaborative Filtering:</b> This method computes the similarity between users and recommends items based on the preferences of similar users.
